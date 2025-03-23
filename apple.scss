@@ -19,13 +19,15 @@ $main-font: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto
 header{
     background-color: black;
     .universal-wrapper{
+        
         display: flex;
         flex-direction: column;
-        gap: 5rem;
+        gap: 6rem;
     }
     
     .bar-wrapper{
         @include space-between();
+        margin-top: 1rem;
         .bar-items-buttons{
             display: flex;
             gap: 0.7rem;
@@ -39,6 +41,7 @@ header{
         ul{
             @include space-between();
             gap: 0.8rem;
+            margin-top: 1rem;
             li{
                 list-style: none;
                 font-family: $main-font;
