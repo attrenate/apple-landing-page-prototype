@@ -9,11 +9,12 @@ header {
 header .universal-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 6rem;
 }
 header .bar-wrapper {
   display: flex;
   justify-content: space-between;
+  margin-top: 1rem;
 }
 header .bar-wrapper .bar-items-buttons {
   display: flex;
@@ -28,6 +29,7 @@ header .bar-wrapper ul {
   display: flex;
   justify-content: space-between;
   gap: 0.8rem;
+  margin-top: 1rem;
 }
 header .bar-wrapper ul li {
   list-style: none;
