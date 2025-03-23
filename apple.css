@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+}
+header .universal-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+header .bar-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+header .bar-wrapper .bar-items-buttons {
+  display: flex;
+  gap: 0.7rem;
+}
+header .bar-wrapper .header-button-small {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+header .bar-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+header .bar-wrapper ul li {
+  list-style: none;
+  font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+header .bar-wrapper ul li:hover {
+  color: dimgrey;
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.title-wrapper h1 {
+  font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+.title-wrapper p {
+  font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: white;
+  text-align: center;
+}
+.title-wrapper .title-buttons-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+.title-wrapper .title-buttons-wrapper .title-buttons {
+  width: 8.75rem;
+  height: 3.125rem;
+  background-color: #3946AF;
+  border: none;
+  border-radius: 2.5rem;
+  color: white;
+  cursor: pointer;
+}
+.title-wrapper .title-buttons-wrapper .title-buttons1 {
+  width: 8.75rem;
+  height: 3.125rem;
+  background-color: inherit;
+  border-color: #3946AF;
+  border-radius: 2.5rem;
+  color: #3946AF;
+  cursor: pointer;
+}/*# sourceMappingURL=apple.css.map */
