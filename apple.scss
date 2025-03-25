@@ -93,6 +93,41 @@ header{
     }
    }
 }
+body{
+    main{
+        font-family: $main-font;
+        h2{
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 3rem;
+        }
+    }
+}
+.main-wrapper-for-main{
+ @include flex-center();
+ flex-direction: column;
+ gap: 4rem;
+ ul{
+    display: flex;
+    gap: 3rem;
+    
+ }
+ li{
+    list-style: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+
+    &:hover{
+        color: grey;
+        text-decoration: underline;
+    }
+ }
+ .leptops{
+    cursor: pointer;
+ }
+    
+
+}
 // Responsive Styles
 @media (max-width: 1200px) {
     .universal-wrapper {
