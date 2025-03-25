@@ -82,6 +82,39 @@ header .bar-wrapper ul li:hover {
   cursor: pointer;
 }
 
+body main {
+  font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+body main h2 {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.main-wrapper-for-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+.main-wrapper-for-main ul {
+  display: flex;
+  gap: 3rem;
+}
+.main-wrapper-for-main li {
+  list-style: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.main-wrapper-for-main li:hover {
+  color: grey;
+  text-decoration: underline;
+}
+.main-wrapper-for-main .leptops {
+  cursor: pointer;
+}
+
 @media (max-width: 1200px) {
   .universal-wrapper {
     gap: 4rem;
