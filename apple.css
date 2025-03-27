@@ -114,7 +114,17 @@ body main h2 {
 .main-wrapper-for-main .leptops {
   cursor: pointer;
 }
-
+.main-wrapper-for-main .airpods-section .un1versal-wrapper {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 2rem !important;
+}
+.main-wrapper-for-main #section {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
 @media (max-width: 1200px) {
   .universal-wrapper {
     gap: 4rem;
