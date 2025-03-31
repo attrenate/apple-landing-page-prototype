@@ -90,6 +90,51 @@ body main h2 {
   text-align: center;
   font-size: 3rem;
 }
+body main #section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: black;
+}
+body main #section-2 h3 {
+  font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+body main #section-2 p {
+  color: #FFFFFF;
+}
+body main #section-2 .buttons-wrapper1 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+body main #section-2 .buttons-wrapper1 .buttons {
+  width: 8.75rem;
+  height: 3.125rem;
+  background-color: #3946AF;
+  border: none;
+  border-radius: 2.5rem;
+  color: white;
+  cursor: pointer;
+}
+body main #section-2 .buttons-wrapper1 .buttons1 {
+  width: 8.75rem;
+  height: 3.125rem;
+  background-color: inherit;
+  border-color: #3946AF;
+  border-radius: 2.5rem;
+  color: #3946AF;
+  cursor: pointer;
+}
+body main .universal-wrapper-for-airpods-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
 
 .main-wrapper-for-main {
   display: flex;
@@ -114,17 +159,7 @@ body main h2 {
 .main-wrapper-for-main .leptops {
   cursor: pointer;
 }
-.main-wrapper-for-main .airpods-section .un1versal-wrapper {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  gap: 2rem !important;
-}
-.main-wrapper-for-main #section {
-  display: flex;
-  justify-content: center;
-  background-color: black;
-}
+
 @media (max-width: 1200px) {
   .universal-wrapper {
     gap: 4rem;
