@@ -91,7 +91,7 @@ header{
         color: #3946AF;
         cursor: pointer;
     }
-   }
+}
 }
 body{
     main{
@@ -100,6 +100,50 @@ body{
             margin-top: 3rem;
             text-align: center;
             font-size: 3rem;
+        }
+        #section-2{
+            @include flex-center();
+            margin-top: 3rem;
+            background-color: black;
+            
+            h3{
+                font-family: $main-font;
+                font-size: 2rem;
+                color: white;
+                display: flex;
+                justify-content: center;
+            }
+            p{
+                color: #FFFFFF;
+            }
+            .buttons-wrapper1{
+                display: flex;
+                justify-content: center;
+                gap: 2rem;
+                .buttons{
+                    width: 8.75rem;
+                    height: 3.125rem;
+                    background-color: #3946AF;
+                    border: none;
+                    border-radius: 2.5rem;
+                    color: white;
+                    cursor: pointer;
+                }
+                .buttons1{
+                    width: 8.75rem;
+                    height: 3.125rem;
+                    background-color: inherit;
+                    border-color: #3946AF;
+                    border-radius: 2.5rem;
+                    color: #3946AF;
+                    cursor: pointer;
+                }
+            }
+        }
+        .universal-wrapper-for-airpods-section{
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
         }
     }
 }
@@ -125,23 +169,7 @@ body{
  .leptops{
     cursor: pointer;
  }
- .airpods-section .un1versal-wrapper {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 2rem !important;
-}
-#section {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-}
-     
-h3{
 
-}
-
-    
 
 }
 // Responsive Styles
